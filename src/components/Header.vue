@@ -3,6 +3,7 @@
         <div class="wrapper">
             <div class="navigation">
                 <router-link to="/">SOH</router-link>
+                <router-link to="/team">Our Team</router-link>
                 <a
                     href="https://donate.acci.org.au/form-4934698/galang-fw250-pledge-page"
                     target="_blank"
@@ -27,6 +28,9 @@ export default {};
     width: 100%;
     background-color: #333333;
     min-height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
 }
 .navigation {
     display: flex;

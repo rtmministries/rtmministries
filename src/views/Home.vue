@@ -52,6 +52,7 @@
 <style>
 .home {
     min-height: 100vh;
+    margin-top: 70px;
 }
 .background-video-container {
     width: 100%;
