@@ -2,7 +2,8 @@
     <div class="header">
         <div class="wrapper">
             <div class="navigation">
-                <router-link to="/">SOH</router-link>
+                <router-link to="/">Home</router-link>
+                <router-link to="/soh">SOH</router-link>
                 <router-link to="/team">Our Team</router-link>
                 <a
                     href="https://donate.acci.org.au/form-4934698/galang-fw250-pledge-page"
