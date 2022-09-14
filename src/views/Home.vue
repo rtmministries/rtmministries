@@ -29,8 +29,9 @@
                         As of 2021, Raising the Mighty's main initiative is
                         Slabs of Homelessness, a project that aims to educate
                         and empower homeless children who are relegated to
-                        living in Philippine cemeteries. Please click here to
-                        read more about Slabs of Homelessness. <link to SOH />
+                        living in Philippine cemeteries. Please click
+                        <router-link to="/soh">here</router-link>
+                        to read more about Slabs of Homelessness.
                     </p>
                 </div>
             </div>
@@ -72,6 +73,9 @@ h1 {
 }
 p {
     margin-bottom: 10px;
+}
+.column > p > a {
+    color: #ea5b4a;
 }
 
 @media screen and (min-width: 1100px) {
