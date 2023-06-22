@@ -1,4 +1,4 @@
-# juno
+# RTM Ministries
 
 ## Project setup
 ```
