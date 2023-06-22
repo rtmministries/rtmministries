@@ -27,7 +27,7 @@
                     >Our Team</router-link
                 >
                 <a
-                    href="https://donate.acci.org.au/form-4934698/galang-fw250-pledge-page"
+                    href="https://donate.acci.org.au/form-6383306/FW250-Galang"
                     target="_blank"
                     :class="{ hidden: hamburgerMenuToggled }"
                     @click="hamburgerMenuToggled = false"
