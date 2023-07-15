@@ -17,6 +17,7 @@
                         the Mighty to empower children living in local
                         cemeteries to exit homelessness through education.
                     </p>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/84AqU0PlKzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="column">
                     <h1>Educating, Believing, Pursuing</h1>
@@ -40,11 +41,13 @@
                     </p>
                 </div>
             </div>
-            <img
-                class="soh-footer-image"
-                src="@/assets/images/soh-footer-image.jpg"
-                alt="Soh footer image"
-            />
+            <div class="image-container">
+                <img
+                    class="soh-footer-image"
+                    src="@/assets/images/soh-footer-image.jpg"
+                    alt="Soh footer image"
+                />
+            </div>
         </div>
     </div>
 </template>
@@ -87,6 +90,9 @@ h1 {
 }
 p {
     margin-bottom: 10px;
+}
+.image-container {
+    padding: 0 20px;
 }
 
 @media screen and (min-width: 1100px) {

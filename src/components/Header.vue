@@ -26,12 +26,11 @@
                     to="/team"
                     >Our Team</router-link
                 >
-                <a
-                    href="https://donate.acci.org.au/form-6383306/FW250-Galang"
-                    target="_blank"
+                <router-link
                     :class="{ hidden: hamburgerMenuToggled }"
                     @click="hamburgerMenuToggled = false"
-                    >Support Us</a
+                    to="/support"
+                    >Support Us</router-link
                 >
                 <a
                     href="https://form.jotform.com/222447905904055"
